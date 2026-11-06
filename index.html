@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LASH | Beauty Begins With You</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #fffaf8;
+      color: #29201f;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 8%;
+      background: white;
+    }
+
+    .logo {
+      font-size: 32px;
+      letter-spacing: 8px;
+      font-weight: bold;
+    }
+
+    nav a {
+      margin-left: 25px;
+      text-decoration: none;
+      color: #29201f;
+    }
+
+    .hero {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px;
+      background: #f3e4df;
+    }
+
+    .hero h1 {
+      font-size: 65px;
+      letter-spacing: 5px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #29201f;
+      color: white;
+      padding: 15px 35px;
+      text-decoration: none;
+      border-radius: 30px;
+    }
+
+    .products {
+      padding: 70px 8%;
+      text-align: center;
+    }
+
+    .products h2 {
+      font-size: 35px;
+      margin-bottom: 40px;
+    }
+
+    .product-grid {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .product {
+      background: white;
+      padding: 25px;
+      width: 250px;
+      border-radius: 12px;
+    }
+
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .product h3 {
+      margin: 15px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #29201f;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">LASH</div>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>YOUR LASHES.<br>YOUR POWER.</h1>
+      <p>Elevate your beauty with LASH.</p>
+      <a href="#shop" class="button">SHOP NOW</a>
+    </div>
+  </section>
+
+  <section class="products" id="shop">
+    <h2>Our Collection</h2>
+
+    <div class="product-grid">
+
+      <div class="product">
+        <img src="https://placehold.co/300x250/f3e4df/29201f?text=Classic+Lashes"
+             alt="Classic lashes">
+        <h3>Classic Lashes</h3>
+        <p>$15.00</p>
+      </div>
+
+      <div class="product">
+        <img src="https://placehold.co/300x250/f3e4df/29201f?text=Volume+Lashes"
+             alt="Volume lashes">
+        <h3>Volume Lashes</h3>
+        <p>$20.00</p>
+      </div>
+
+      <div class="product">
+        <img src="https://placehold.co/300x250/f3e4df/29201f?text=Luxury+Lashes"
+             alt="Luxury lashes">
+        <h3>Luxury Lashes</h3>
+        <p>$25.00</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="products" id="about">
+    <h2>Beauty Begins With LASH</h2>
+    <p>Designed to make every eye unforgettable.</p>
+  </section>
+
+  <footer>
+    <p>© 2026 LASH Beauty. All rights reserved.</p>
+    <p>Instagram: @yourlashbrand</p>
+  </footer>
+
+</body>
+</html>
